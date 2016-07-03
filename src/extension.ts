@@ -18,7 +18,7 @@ export function activate(context: vscode.ExtensionContext) {
         }
 
         // Module to create native browser window.
-        // const electron = require('electron');
+        const electron = require('electron');
         // const BrowserWindow = require('electron').remote.BrowserWindow;
         // console.log(BrowserWindow)
     });
